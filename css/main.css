@@ -10200,7 +10200,7 @@ a.hero-cta-alt:hover {
   margin: 0 auto;
   object-fit: cover;
   position: relative;
-  top: 20px; /* Adjust this value to move the image down */
+  top: 40px; /* Adjust this value to move the image down */
 }
 @media (max-width: 767.98px) {
   .wg-about .avatar {
