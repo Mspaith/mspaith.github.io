@@ -10199,7 +10199,7 @@ a.hero-cta-alt:hover {
   height: 270px;
   margin: 0 auto;
   object-fit: cover;
-object-position: center 60%;
+object-position: center 50%;
 }
 @media (max-width: 767.98px) {
   .wg-about .avatar {
