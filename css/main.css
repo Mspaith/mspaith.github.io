@@ -10745,14 +10745,5 @@ html[dir="rtl"] body {
 .contact_box a {
   text-decoration: none;
 }
-body.light {
-    background: #ffffff !important; /* Pure white background */
-    color: #000000 !important; /* Ensure text is black */
-}
-
-body.light * {
-    color: #000000 !important; /* Force black text for all elements */
-    background: transparent !important; /* Remove any hidden backgrounds */
-}
 
 
