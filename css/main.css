@@ -10746,4 +10746,8 @@ html[dir="rtl"] body {
   text-decoration: none;
 }
 
+body.light {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
 
