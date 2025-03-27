@@ -10631,10 +10631,10 @@ body.dark,
   background: #282a36;
 }
 .dark .form-control {
-  background-color: #ffffff;
+  background-color: #44475a;
 }
 .dark .form-control:focus {
-  background-color: #ffffff;
+  background-color: #44475a;
   border-color: #e87683;
   box-shadow: 0 0 0 0.2rem #e14a5b;
 }
