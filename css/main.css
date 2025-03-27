@@ -10745,3 +10745,9 @@ html[dir="rtl"] body {
 .contact_box a {
   text-decoration: none;
 }
+
+body.light {
+    background-color: #fff;
+    color: #000;
+}
+
