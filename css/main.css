@@ -10746,4 +10746,14 @@ html[dir="rtl"] body {
   text-decoration: none;
 }
 
+body.light {
+    background: #ffffff; /* White background */
+    color: #000000; /* Black text */
+}
+
+/* Optional: Ensure dark mode styles don't override */
+body.light .form-control {
+    background: #f8f9fa;
+    color: #000;
+}
 
