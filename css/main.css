@@ -10745,3 +10745,74 @@ html[dir="rtl"] body {
 .contact_box a {
   text-decoration: none;
 }
+
+body.light,
+.light .docs-toc-link,
+.light .docs-sidebar .nav > li:not(.active) > a,
+.light .modal button.close,
+.light input,
+.light .form-control,
+.light .form-control:focus {
+  color: #333;
+  background: #ffffff;
+}
+.light .form-control {
+  background-color: #f0f0f0;
+}
+.light .form-control:focus {
+  background-color: #ffffff;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem #80bdff;
+}
+.light h1,
+.light h2,
+.light h3,
+.light h4,
+.light h5,
+.light h6 {
+  color: #212529;
+}
+.light pre,
+.light code {
+  color: #d63384;
+  background-color: #f8f9fa;
+}
+.light pre {
+  border-color: #dee2e6;
+}
+.light table table {
+  background-color: #ffffff;
+}
+.light table > tbody > tr:nth-child(odd) > td,
+.light table > tbody > tr:nth-child(odd) > th {
+  background-color: #f8f9fa;
+}
+.light table > tbody > tr:hover > td,
+.light table > tbody > tr:hover > th {
+  background-color: #e9ecef;
+}
+.light .card {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.light .card h4 a {
+  color: #007bff;
+  border-bottom: solid 1px transparent;
+}
+.light select {
+  background: #ffffff;
+  color: #333;
+}
+.light .badge-light {
+  color: #333;
+  background: rgba(0, 0, 0, 0.1);
+}
+.light .badge-light[href]:focus,
+.light .badge-light[href]:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.light a.badge:focus,
+.light a.badge:hover {
+  color: #333;
+}
+
