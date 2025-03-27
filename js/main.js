@@ -40,9 +40,7 @@ if(diagramEnabled){if(init){mermaid.initialize({theme:'default',securityLevel:'l
 $('body').addClass('dark');if(codeHlEnabled){codeHlLight.disabled=true;codeHlDark.disabled=false;}
 if(diagramEnabled){if(init){mermaid.initialize({theme:'dark',securityLevel:'loose'});}else{location.reload();}}}}
 function initThemeVariation(){if(canChangeTheme){let themeMode=getThemeMode();switch(themeMode){case 0:showActiveTheme(2);console.info('Initialize theme variation to Light.');break;case 1:showActiveTheme(0);console.info('Initialize theme variation to Dark.');break;default:showActiveTheme(1);console.info('Initialize theme variation to Auto.');break;}}
-function getThemeVariation() {
-  return false; // 👈 Forces Light Mode Always
-}
+let isDarkTheme = getThemeVariation();renderThemeVariation(isDarkTheme, true);
 function normalizeCarouselSlideHeights(){$('.carousel').each(function(){let items=$('.carousel-item',this);items.css('min-height',0);let maxHeight=Math.max.apply(null,items.map(function(){return $(this).outerHeight()}).get());items.css('min-height',maxHeight+'px');})}
 function fixHugoOutput(){$('#TableOfContents').addClass('nav flex-column');$('#TableOfContents li').addClass('nav-item');$('#TableOfContents li a').addClass('nav-link');$("input[type='checkbox'][disabled]").parents('ul').addClass('task-list');}
 function fixMermaid(){let mermaids=[];[].push.apply(mermaids,document.getElementsByClassName('language-mermaid'));for(let i=0;i<mermaids.length;i++){$(mermaids[i]).unwrap('pre');$(mermaids[i]).replaceWith(function(){return $("<div />").append($(this).contents()).addClass('mermaid');});}}
