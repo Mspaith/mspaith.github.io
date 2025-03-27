@@ -10745,15 +10745,14 @@ html[dir="rtl"] body {
 .contact_box a {
   text-decoration: none;
 }
-
 body.light {
-    background: #ffffff; /* White background */
-    color: #000000; /* Black text */
+    background: #ffffff !important; /* Pure white background */
+    color: #000000 !important; /* Ensure text is black */
 }
 
-/* Optional: Ensure dark mode styles don't override */
-body.light .form-control {
-    background: #f8f9fa;
-    color: #000;
+body.light * {
+    color: #000000 !important; /* Force black text for all elements */
+    background: transparent !important; /* Remove any hidden backgrounds */
 }
+
 
