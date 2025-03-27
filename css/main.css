@@ -10628,13 +10628,13 @@ body.dark,
 .dark .form-control,
 .dark .form-control:focus {
   color: #f8f8f2;
-  background: #ffffff;
+  background: #282a36;
 }
 .dark .form-control {
-  background-color: #44475a;
+  background-color: #ffffff;
 }
 .dark .form-control:focus {
-  background-color: #44475a;
+  background-color: #ffffff;
   border-color: #e87683;
   box-shadow: 0 0 0 0.2rem #e14a5b;
 }
